@@ -1,0 +1,526 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.img{
+    width: 100%
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(wedding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(90%);
+}
+a {
+    text-decoration: none;
+    color: black;
+   overflow: hidden;
+   opacity: 0.5px;
+}
+.before{
+    display: block; 
+    background-color: aliceblue;
+    gap: 90px;
+    position: fixed;
+    bottom: 0;
+    word-spacing: 350px;
+    font-size: 22px;
+    text-decoration-color: black;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.content {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.content h3 ,h1 {
+    font-weight: 100;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.go{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 110%;
+    font-size: 35px;
+    text-align: center;
+    color: #757575;
+}
+.gone img{
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 130px;
+  filter: grayscale(50%);
+}
+.john{
+    position: absolute;
+    left: 15%;
+    right: 10%;
+    top: 210%;
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+    
+
+}
+.went{
+    position: absolute;
+    left: 43%;
+    right: 45%;
+    top: 240%;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+.went:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+.flower img{
+    margin-top: 350px;
+    width: 100%;
+    margin-left: auto;
+ margin-right: auto;
+ display: block;
+  max-width: 100%;
+  max-height: 20%;
+  filter: grayscale(30%);
+  height: 50%;
+}
+.invite{
+    position: absolute;
+    margin-top: -350px;
+    font-size: 60px;
+    left: 35%;
+    right: 35%;
+    color: white;
+}
+.course{
+    position: absolute;
+    margin-top: -255px;
+    font-size: 30px;
+    left: 45%;
+    right: 35%;
+    color: white;
+}
+.the{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: #757575;
+}
+.location img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  max-width: 100%;
+  max-height: 20%;
+  filter: grayscale(50%);
+  height: 50%;
+  margin-top: 80px;
+}
+.when{
+    position: absolute;
+    left: 25%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.pap{
+    position: absolute;
+    left: 25%;
+    margin-top: 55px; 
+    font-size: 20px; 
+}
+.where{
+    position: absolute;
+    left: 60%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.pay{
+    position: absolute;
+    left: 60%;
+    margin-top: 55px; 
+    font-size: 20px; 
+}
+.hope{
+    position: absolute;
+    margin-top: 250px;
+    left: 30%;
+    font-size: 40px;
+}
+.kindly{
+    position: absolute;
+    margin-top: 330px;
+    left: 40%;
+    font-size: 20px; 
+}
+.rsvp{
+    margin-top: 400px;
+    position: absolute;
+    left: 45%;
+    width: 150px;
+    padding: 15px;
+    background-color: #f44336;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.rsvp:hover{
+    background-color: lightcoral;
+}
+.power{
+    margin-top: 490px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+ @media screen and (max-width:700px) {
+    .john{
+        position: absolute;
+        left: 15%;
+        right: 10%;
+        top: 195%;
+        font-size: 15px;
+        text-align: center;
+        color: #757575;
+     }
+    .went{
+        position: absolute;
+        left: 43%;
+        right: 45%;
+        top: 195%;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        width: 200px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .went:hover{
+        background-color: #ffffff;
+        color: black;
+        border: 1px solid black;
+    } 
+    .course{
+        position: absolute;
+        margin-top: -110px;
+        font-size: 30px;
+        left: 45%;
+        right: 35%;
+        color: white;
+    }
+    .gone img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+         max-width: 90%;
+         max-height: 100%;
+         margin-top: 130px;
+         filter: grayscale(50%);
+       }
+       .location img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+         max-width: 90%;
+         max-height: 100%;
+         margin-top: 130px;
+         filter: grayscale(50%)
+       }
+       .when{
+        position: absolute;
+        left: 10%;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .pap{
+        position: absolute;
+        left: 10%;
+        margin-top: 55px; 
+        font-size: 20px; 
+    }  
+    .hope{
+        position: absolute;
+        margin-top: 250px;
+        left: 15%;
+        font-size: 40px;
+    }
+    .kindly{
+        position: absolute;
+        margin-top: 330px;
+        left: 30%;
+        font-size: 20px; 
+    }
+    .rsvp{
+        margin-top: 400px;
+        position: absolute;
+        left: 38%;
+        width: 150px;
+        padding: 15px;
+        background-color: #f44336;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    .rsvp:hover{
+        background-color: lightcoral;
+    }
+    .before{
+        display: block; 
+        background-color: aliceblue;
+        gap: 45px;
+        position: fixed;
+        bottom: 0;
+        word-spacing: 90%;
+        font-size: 20px;
+        text-decoration-color: black;
+        overflow: hidden;
+        text-decoration: none;
+        margin-top: 80px;
+        margin-bottom: 1px;
+    }
+}
+@media screen and (max-width:500px) {
+    .content {
+        color: burlywood;
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        left: 85px;
+        right: 70px;
+    }
+    .content h3 ,h1 {
+        font-weight: 70;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .john{
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 165%;
+        font-size: 19px;
+        text-align: center;
+        color: #757575;
+        
+
+    }
+    .went{
+        position: absolute;
+        left: 43%;
+        right: 45%;
+        top: 20%;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        width: 200px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .went:hover{
+        background-color: #ffffff;
+        color: black;
+        border: 1px solid black;
+    } 
+    .invite{
+        margin-top: -200px;
+        font-size: 30px;
+    }
+    .course{
+        position: absolute;
+        margin-top: -90px;
+        font-size: 10px;
+        left: 45%;
+        right: 35%;
+        color: white;
+    }
+    .gone img{
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         max-width: 80%;
+         max-height: 100%;
+         margin-top: 130px;
+         filter: grayscale(50%);
+       }
+       .flower img{
+        margin-top: 420px;
+       }
+       .the{
+        font-size: 40px;
+       }
+       .location img{
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         max-width: 80%;
+         max-height: 100%;
+         margin-top: 50px;
+         filter: grayscale(50%)
+       }
+       .when{
+        position: absolute;
+        left: 10%;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .pap{
+        position: absolute;
+        left: 10%;
+        margin-top: 85px; 
+        font-size: 10px; 
+    }  
+    .where{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .pay{
+        font-size: 10px;
+        margin-top: 85px;
+    }
+    .hope{
+        position: absolute;
+        margin-top: 210px;
+        left: 10%;
+        font-size: 26px;
+    }
+    .kindly{
+        position: absolute;
+        margin-top: 300px;
+        left: 15%;
+        font-size: 20px; 
+    }
+    .rsvp{
+        margin-top: 380px;
+        position: absolute;
+        left: 30%;
+        width: 150px;
+        padding: 15px;
+        background-color: #f44336;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    .rsvp:hover{
+        background-color: lightcoral;
+    }
+    .power{
+        margin-top: 490px;
+        width: 100%;
+        padding: 35px;
+        text-align: center;
+        margin-bottom: 0px;
+        background-color: black;
+        color: white;
+    }
+    .the{
+        margin-top: 70px;
+    }
+    .before{
+        display: none; 
+        background-color: aliceblue;
+        gap: 45px;
+        position: fixed;
+        bottom: 0;
+        word-spacing: 99px;
+        font-size: 22px;
+        text-decoration-color: black;
+        overflow: hidden;
+        text-decoration: none;
+        margin-top: 80px;
+        margin-bottom: 1px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+       overflow: hidden;
+       opacity: 0.5px;
+       display: none;
+    }
+}
+
+@media screen and (max-width:772px) {
+    .went{
+        position: absolute;
+        left: 43%;
+        right: 45%;
+        top: 250%;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        width: 200px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .went:hover{
+        background-color: #ffffff;
+        color: black;
+        border: 1px solid black;
+    } 
+    .course{
+        position: absolute;
+        margin-top: -110px;
+        font-size: 30px;
+        left: 45%;
+        right: 35%;
+        color: white;
+    }
+    .before{
+        display: block; 
+        background-color: aliceblue;
+        gap: 45px;
+        position: fixed;
+        bottom: 0;
+        word-spacing: 160.3px;
+        font-size: 22px;
+        text-decoration-color: black;
+        overflow: hidden;
+        text-decoration: none;
+        margin-top: 80px;
+        margin-bottom: 1px;
+    }
+}
